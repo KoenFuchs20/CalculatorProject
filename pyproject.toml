@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "CalculatorProject"
+version = "0.1.0"
+description = ""
+authors = ["Koen <koenfuchs20@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "calculator_api", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
