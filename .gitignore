@@ -9,5 +9,6 @@ venv/
 env/
 
 # Ingore IDE files and directories
+.idea
 .idea/
 .vscode/
